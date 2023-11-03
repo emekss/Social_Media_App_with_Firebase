@@ -16,11 +16,15 @@ class _LoginPageState extends State<LoginPage> {
   final _passwordController = TextEditingController();
 
   //sign in button
-  Future signIn() async {
-    await FirebaseAuth.instance.signInWithEmailAndPassword(
-      email: _emailController.text.trim(),
-      password: _passwordController.text.trim(),
-    );
+  void signIn() async {
+    try {
+      await FirebaseAuth.instance.signInWithEmailAndPassword(
+        email: _emailController.text.trim(),
+        password: _passwordController.text.trim(),
+      );
+    } on FirebaseException catch (e) {
+      print(e.message);
+    }
   }
 
   @override
