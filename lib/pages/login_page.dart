@@ -22,8 +22,8 @@ class _LoginPageState extends State<LoginPage> {
         email: _emailController.text.trim(),
         password: _passwordController.text.trim(),
       );
-    } on FirebaseException catch (e) {
-      print(e.message);
+    } on FirebaseException catch (E) {
+      print(E.message);
     }
   }
 
