@@ -1,6 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:social_media_app_with_firebase/pages/forgot_passwprd_page.dart';
 
 class LoginPage extends StatefulWidget {
   final VoidCallback showRegisterPage;
@@ -117,6 +118,34 @@ class _LoginPageState extends State<LoginPage> {
               ),
 
               const SizedBox(height: 10),
+              // forgot password
+
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 25.0),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.end,
+                  children: [
+                    GestureDetector(
+                      onTap: () {
+                        Navigator.push(context, MaterialPageRoute(
+                          builder: (context) {
+                            return const ForgotPasswordPage();
+                          },
+                        ));
+                      },
+                      child: const Text(
+                        'Forgot Password',
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          color: Colors.red,
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+
+              const SizedBox(height: 10),
 
               //sign in button
 
@@ -162,7 +191,7 @@ class _LoginPageState extends State<LoginPage> {
                     child: const Text(
                       'Register now',
                       style: TextStyle(
-                          fontWeight: FontWeight.bold, color: Colors.blue),
+                          fontWeight: FontWeight.bold, color: Colors.red),
                     ),
                   ),
                 ],

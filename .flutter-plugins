@@ -1,4 +1,6 @@
 # This is a generated file; do not edit or check into version control.
+cloud_firestore=/Users/admin/.pub-cache/hosted/pub.dev/cloud_firestore-4.12.2/
+cloud_firestore_web=/Users/admin/.pub-cache/hosted/pub.dev/cloud_firestore_web-3.8.3/
 firebase_auth=/Users/admin/.pub-cache/hosted/pub.dev/firebase_auth-4.12.1/
 firebase_auth_web=/Users/admin/.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.6/
 firebase_core=/Users/admin/.pub-cache/hosted/pub.dev/firebase_core-2.21.0/

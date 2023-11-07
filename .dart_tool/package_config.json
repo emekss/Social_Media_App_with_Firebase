@@ -32,6 +32,24 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "cloud_firestore",
+      "rootUri": "file:///Users/admin/.pub-cache/hosted/pub.dev/cloud_firestore-4.12.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "cloud_firestore_platform_interface",
+      "rootUri": "file:///Users/admin/.pub-cache/hosted/pub.dev/cloud_firestore_platform_interface-6.0.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "cloud_firestore_web",
+      "rootUri": "file:///Users/admin/.pub-cache/hosted/pub.dev/cloud_firestore_web-3.8.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
       "name": "collection",
       "rootUri": "file:///Users/admin/.pub-cache/hosted/pub.dev/collection-1.17.2",
       "packageUri": "lib/",
@@ -302,7 +320,7 @@
       "languageVersion": "3.1"
     }
   ],
-  "generated": "2023-11-02T23:45:50.322972Z",
+  "generated": "2023-11-07T04:59:48.519602Z",
   "generator": "pub",
   "generatorVersion": "3.1.3"
 }
